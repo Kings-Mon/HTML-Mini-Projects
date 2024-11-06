@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One-Shot Video Table</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            font-family:'Times New Roman', Times, serif
+        }
+        table {
+            width: 80%;
+            max-width: 1000px;
+            border-collapse: collapse;
+            margin: auto;
+            background-color: #ffffff;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        th, td {
+            border: 2px solid #dddddd;
+            padding: 15px;
+            font-size: larger;
+            text-align: center;
+        }
+        th {
+            background-color: #7eac0a;
+        }
+        th:nth-child(2) {
+            background-color: #0da0c1;
+        }
+        td iframe {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+
+        /* Responsive design */
+        @media (max-width: 768px) {
+            table {
+                width: 100%;
+                font-size: 15px;
+            }
+            
+            td, th {
+                padding: 10px;
+            }
+
+            iframe {
+                height: 200px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Video Resources for Technical Subjects</h1>
+    <table>
+        <tr>
+            <th>Topic</th>
+            <th>One Shot Videos</th>
+        </tr>
+        <tr>
+            <td><b>Software Engineering</b></td>
+            <td><iframe width="560" height="315" src="https://www.youtube.com/embed/NlLM3sVF8wY?si=jJ7qqmHOQ9feeGCt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></td>
+        </tr>
+        <tr>
+            <td><b>TOC [Theory of Computation]</b></td>
+            <td><iframe width="560" height="315" src="https://www.youtube.com/embed/9kuynHcM3UA?si=706DVMPUmIUeZVUB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></td>
+        </tr>
+        <tr>
+            <td><b>DBMS [Database Management System]</b></td>
+            <td><iframe width="560" height="315" src="https://www.youtube.com/embed/YRnjGeQbsHQ?si=BMVBGzuV2qhkzHh4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></td>
+        </tr>
+        <tr>
+            <td><b>JAVA & OOPs</b></td>
+            <td><iframe width="560" height="315" src="https://www.youtube.com/embed/LepLT82RtxA?si=vu-sZxvxkOUloCmI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></td>
+        </tr>
+        <tr>
+            <td><b>AI [Artificial Intelligence]</b></td>
+            <td><iframe width="560" height="315" src="https://www.youtube.com/embed/yiXAmkimZRQ?si=fWo-imJPYwuWn42-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></td>
+        </tr>
+    </table>
+</body>
+</html>
